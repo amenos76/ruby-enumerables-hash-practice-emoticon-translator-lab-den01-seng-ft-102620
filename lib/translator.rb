@@ -9,8 +9,11 @@ emoticons = YAML.load_file('./lib/emoticons.yml')
 final_hash = {}
 
 emoticons.each do |key, value|
-  
-
+  final_hash[key] = {}
+  final_hash[key][:english] = value[0]
+  final_hash[key][:japanese] = value[1]
+  final_hash[key]
+end
 final_hash
 end
 binding.pry
