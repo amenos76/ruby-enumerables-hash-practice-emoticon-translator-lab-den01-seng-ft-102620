@@ -19,6 +19,6 @@ end
 
 
 def get_english_meaning (path, emoticon)
-  load_libray(path)
+  load_library(path)
 
 end
